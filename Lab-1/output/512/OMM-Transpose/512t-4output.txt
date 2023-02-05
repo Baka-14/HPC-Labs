@@ -1,0 +1,15 @@
+elapsed time = 0.36 | seconds power is 2 | number of threads is 1
+elapsed time = 0.71 | seconds power is 3 | number of threads is 1
+elapsed time = 1.06 | seconds power is 4 | number of threads is 1
+elapsed time = 1.41 | seconds power is 5 | number of threads is 1
+elapsed time = 1.76 | seconds power is 6 | number of threads is 1
+elapsed time = 2.11 | seconds power is 7 | number of threads is 1
+elapsed time = 2.46 | seconds power is 8 | number of threads is 1
+elapsed time = 2.81 | seconds power is 9 | number of threads is 1
+elapsed time = 3.16 | seconds power is 10 | number of threads is 1
+elapsed time = 3.51 | seconds power is 11 | number of threads is 1
+elapsed time = 3.86 | seconds power is 12 | number of threads is 1
+elapsed time = 4.21 | seconds power is 13 | number of threads is 1
+elapsed time = 4.56 | seconds power is 14 | number of threads is 1
+elapsed time = 4.91 | seconds power is 15 | number of threads is 1
+elapsed time = 5.26 | seconds power is 16 | number of threads is 1
