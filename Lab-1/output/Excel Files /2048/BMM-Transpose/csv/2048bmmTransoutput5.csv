@@ -1,0 +1,686 @@
+2048x2048 bmm transpose 5,,,
+elapsed time,power,no of threads,
+37.07,2,1, block size is 4
+69.29,3,1, block size is 4
+101.32,4,1, block size is 4
+133.11,5,1, block size is 4
+164.93,6,1, block size is 4
+196.91,7,1, block size is 4
+228.99,8,1, block size is 4
+261.12,9,1, block size is 4
+293.14,10,1, block size is 4
+325.17,11,1, block size is 4
+358.25,12,1, block size is 4
+390.28,13,1, block size is 4
+422.33,14,1, block size is 4
+454.42,15,1, block size is 4
+486.56,16,1, block size is 4
+508.38,2,1, block size is 8
+530.22,3,1, block size is 8
+552.06,4,1, block size is 8
+573.89,5,1, block size is 8
+595.73,6,1, block size is 8
+617.57,7,1, block size is 8
+639.39,8,1, block size is 8
+661.23,9,1, block size is 8
+683.08,10,1, block size is 8
+704.89,11,1, block size is 8
+726.71,12,1, block size is 8
+748.53,13,1, block size is 8
+770.36,14,1, block size is 8
+792.19,15,1, block size is 8
+814.02,16,1, block size is 8
+834.38,2,1, block size is 16
+854.74,3,1, block size is 16
+875.1,4,1, block size is 16
+895.44,5,1, block size is 16
+915.8,6,1, block size is 16
+936.1,7,1, block size is 16
+956.46,8,1, block size is 16
+976.8,9,1, block size is 16
+997.15,10,1, block size is 16
+1017.49,11,1, block size is 16
+1037.83,12,1, block size is 16
+1058.16,13,1, block size is 16
+1078.51,14,1, block size is 16
+1098.84,15,1, block size is 16
+1119.19,16,1, block size is 16
+1139.52,2,1, block size is 32
+1159.85,3,1, block size is 32
+1180.18,4,1, block size is 32
+1200.52,5,1, block size is 32
+1220.85,6,1, block size is 32
+1241.19,7,1, block size is 32
+1261.52,8,1, block size is 32
+1281.85,9,1, block size is 32
+1302.18,10,1, block size is 32
+1322.51,11,1, block size is 32
+1342.84,12,1, block size is 32
+1363.17,13,1, block size is 32
+1383.5,14,1, block size is 32
+1403.83,15,1, block size is 32
+1424.16,16,1, block size is 32
+1444.01,2,1, block size is 64
+1463.86,3,1, block size is 64
+1483.71,4,1, block size is 64
+1503.56,5,1, block size is 64
+1523.4,6,1, block size is 64
+1543.25,7,1, block size is 64
+1563.1,8,1, block size is 64
+1582.95,9,1, block size is 64
+1602.8,10,1, block size is 64
+1622.65,11,1, block size is 64
+1642.49,12,1, block size is 64
+1662.34,13,1, block size is 64
+1682.19,14,1, block size is 64
+1702.04,15,1, block size is 64
+1721.89,16,1, block size is 64
+2048 1 thread done,,,
+17.76,2,2, block size is 4
+35.46,3,2, block size is 4
+53.17,4,2, block size is 4
+70.87,5,2, block size is 4
+88.58,6,2, block size is 4
+106.81,7,2, block size is 4
+125.04,8,2, block size is 4
+143.29,9,2, block size is 4
+161.59,10,2, block size is 4
+179.9,11,2, block size is 4
+198.21,12,2, block size is 4
+216.51,13,2, block size is 4
+234.83,14,2, block size is 4
+254.06,15,2, block size is 4
+272.22,16,2, block size is 4
+282.62,2,2, block size is 8
+293.04,3,2, block size is 8
+303.44,4,2, block size is 8
+313.85,5,2, block size is 8
+324.26,6,2, block size is 8
+334.74,7,2, block size is 8
+345.55,8,2, block size is 8
+356.37,9,2, block size is 8
+367.3,10,2, block size is 8
+378.25,11,2, block size is 8
+389.2,12,2, block size is 8
+400.01,13,2, block size is 8
+410.83,14,2, block size is 8
+421.65,15,2, block size is 8
+432.05,16,2, block size is 8
+441.94,2,2, block size is 16
+451.82,3,2, block size is 16
+461.7,4,2, block size is 16
+471.58,5,2, block size is 16
+481.46,6,2, block size is 16
+491.34,7,2, block size is 16
+501.22,8,2, block size is 16
+511.1,9,2, block size is 16
+520.98,10,2, block size is 16
+530.86,11,2, block size is 16
+540.75,12,2, block size is 16
+550.63,13,2, block size is 16
+560.51,14,2, block size is 16
+570.39,15,2, block size is 16
+580.29,16,2, block size is 16
+590.43,2,2, block size is 32
+600.58,3,2, block size is 32
+610.73,4,2, block size is 32
+620.88,5,2, block size is 32
+631.08,6,2, block size is 32
+641.25,7,2, block size is 32
+651.41,8,2, block size is 32
+661.56,9,2, block size is 32
+671.72,10,2, block size is 32
+681.86,11,2, block size is 32
+692.01,12,2, block size is 32
+702.15,13,2, block size is 32
+712.29,14,2, block size is 32
+722.44,15,2, block size is 32
+732.58,16,2, block size is 32
+742.49,2,2, block size is 64
+752.4,3,2, block size is 64
+762.32,4,2, block size is 64
+772.23,5,2, block size is 64
+782.15,6,2, block size is 64
+792.07,7,2, block size is 64
+801.98,8,2, block size is 64
+811.89,9,2, block size is 64
+elapsed time = 821.81 | seconds power is 10 | number of threads is 2 | block size is 64,,,
+elapsed time = 831.73 | seconds power is 11 | number of threads is 2 | block size is 64,,,
+elapsed time = 841.64 | seconds power is 12 | number of threads is 2 | block size is 64,,,
+elapsed time = 851.56 | seconds power is 13 | number of threads is 2 | block size is 64,,,
+elapsed time = 861.47 | seconds power is 14 | number of threads is 2 | block size is 64,,,
+elapsed time = 871.39 | seconds power is 15 | number of threads is 2 | block size is 64,,,
+elapsed time = 881.31 | seconds power is 16 | number of threads is 2 | block size is 64,,,
+2048 2 thread done,,,
+elapsed time = 8.66 | seconds power is 2 | number of threads is 4 | block size is 4,,,
+elapsed time = 17.26 | seconds power is 3 | number of threads is 4 | block size is 4,,,
+elapsed time = 25.85 | seconds power is 4 | number of threads is 4 | block size is 4,,,
+elapsed time = 34.46 | seconds power is 5 | number of threads is 4 | block size is 4,,,
+elapsed time = 43.07 | seconds power is 6 | number of threads is 4 | block size is 4,,,
+elapsed time = 51.76 | seconds power is 7 | number of threads is 4 | block size is 4,,,
+elapsed time = 60.44 | seconds power is 8 | number of threads is 4 | block size is 4,,,
+elapsed time = 69.12 | seconds power is 9 | number of threads is 4 | block size is 4,,,
+elapsed time = 77.81 | seconds power is 10 | number of threads is 4 | block size is 4,,,
+elapsed time = 86.49 | seconds power is 11 | number of threads is 4 | block size is 4,,,
+elapsed time = 95.17 | seconds power is 12 | number of threads is 4 | block size is 4,,,
+elapsed time = 103.84 | seconds power is 13 | number of threads is 4 | block size is 4,,,
+elapsed time = 112.51 | seconds power is 14 | number of threads is 4 | block size is 4,,,
+elapsed time = 121.17 | seconds power is 15 | number of threads is 4 | block size is 4,,,
+elapsed time = 130.17 | seconds power is 16 | number of threads is 4 | block size is 4,,,
+elapsed time = 136.09 | seconds power is 2 | number of threads is 4 | block size is 8,,,
+elapsed time = 141.68 | seconds power is 3 | number of threads is 4 | block size is 8,,,
+elapsed time = 147.15 | seconds power is 4 | number of threads is 4 | block size is 8,,,
+elapsed time = 152.61 | seconds power is 5 | number of threads is 4 | block size is 8,,,
+elapsed time = 158.09 | seconds power is 6 | number of threads is 4 | block size is 8,,,
+elapsed time = 163.57 | seconds power is 7 | number of threads is 4 | block size is 8,,,
+elapsed time = 169.14 | seconds power is 8 | number of threads is 4 | block size is 8,,,
+elapsed time = 174.61 | seconds power is 9 | number of threads is 4 | block size is 8,,,
+elapsed time = 180.10 | seconds power is 10 | number of threads is 4 | block size is 8,,,
+elapsed time = 185.58 | seconds power is 11 | number of threads is 4 | block size is 8,,,
+elapsed time = 191.06 | seconds power is 12 | number of threads is 4 | block size is 8,,,
+elapsed time = 196.55 | seconds power is 13 | number of threads is 4 | block size is 8,,,
+elapsed time = 202.06 | seconds power is 14 | number of threads is 4 | block size is 8,,,
+elapsed time = 207.63 | seconds power is 15 | number of threads is 4 | block size is 8,,,
+elapsed time = 213.24 | seconds power is 16 | number of threads is 4 | block size is 8,,,
+elapsed time = 218.57 | seconds power is 2 | number of threads is 4 | block size is 16,,,
+elapsed time = 223.90 | seconds power is 3 | number of threads is 4 | block size is 16,,,
+elapsed time = 229.23 | seconds power is 4 | number of threads is 4 | block size is 16,,,
+elapsed time = 234.55 | seconds power is 5 | number of threads is 4 | block size is 16,,,
+elapsed time = 239.88 | seconds power is 6 | number of threads is 4 | block size is 16,,,
+elapsed time = 245.21 | seconds power is 7 | number of threads is 4 | block size is 16,,,
+elapsed time = 250.54 | seconds power is 8 | number of threads is 4 | block size is 16,,,
+elapsed time = 255.87 | seconds power is 9 | number of threads is 4 | block size is 16,,,
+elapsed time = 261.20 | seconds power is 10 | number of threads is 4 | block size is 16,,,
+elapsed time = 266.53 | seconds power is 11 | number of threads is 4 | block size is 16,,,
+elapsed time = 271.85 | seconds power is 12 | number of threads is 4 | block size is 16,,,
+elapsed time = 277.18 | seconds power is 13 | number of threads is 4 | block size is 16,,,
+elapsed time = 282.52 | seconds power is 14 | number of threads is 4 | block size is 16,,,
+elapsed time = 287.85 | seconds power is 15 | number of threads is 4 | block size is 16,,,
+elapsed time = 293.17 | seconds power is 16 | number of threads is 4 | block size is 16,,,
+elapsed time = 298.61 | seconds power is 2 | number of threads is 4 | block size is 32,,,
+elapsed time = 304.05 | seconds power is 3 | number of threads is 4 | block size is 32,,,
+elapsed time = 309.49 | seconds power is 4 | number of threads is 4 | block size is 32,,,
+elapsed time = 314.92 | seconds power is 5 | number of threads is 4 | block size is 32,,,
+elapsed time = 320.36 | seconds power is 6 | number of threads is 4 | block size is 32,,,
+elapsed time = 325.80 | seconds power is 7 | number of threads is 4 | block size is 32,,,
+elapsed time = 331.24 | seconds power is 8 | number of threads is 4 | block size is 32,,,
+elapsed time = 336.67 | seconds power is 9 | number of threads is 4 | block size is 32,,,
+elapsed time = 342.10 | seconds power is 10 | number of threads is 4 | block size is 32,,,
+elapsed time = 347.53 | seconds power is 11 | number of threads is 4 | block size is 32,,,
+elapsed time = 352.96 | seconds power is 12 | number of threads is 4 | block size is 32,,,
+elapsed time = 358.39 | seconds power is 13 | number of threads is 4 | block size is 32,,,
+elapsed time = 363.82 | seconds power is 14 | number of threads is 4 | block size is 32,,,
+elapsed time = 369.26 | seconds power is 15 | number of threads is 4 | block size is 32,,,
+elapsed time = 374.69 | seconds power is 16 | number of threads is 4 | block size is 32,,,
+elapsed time = 379.98 | seconds power is 2 | number of threads is 4 | block size is 64,,,
+elapsed time = 385.27 | seconds power is 3 | number of threads is 4 | block size is 64,,,
+elapsed time = 390.55 | seconds power is 4 | number of threads is 4 | block size is 64,,,
+elapsed time = 395.85 | seconds power is 5 | number of threads is 4 | block size is 64,,,
+elapsed time = 401.15 | seconds power is 6 | number of threads is 4 | block size is 64,,,
+elapsed time = 406.43 | seconds power is 7 | number of threads is 4 | block size is 64,,,
+elapsed time = 411.72 | seconds power is 8 | number of threads is 4 | block size is 64,,,
+elapsed time = 417.01 | seconds power is 9 | number of threads is 4 | block size is 64,,,
+elapsed time = 422.29 | seconds power is 10 | number of threads is 4 | block size is 64,,,
+elapsed time = 427.58 | seconds power is 11 | number of threads is 4 | block size is 64,,,
+elapsed time = 432.88 | seconds power is 12 | number of threads is 4 | block size is 64,,,
+elapsed time = 438.16 | seconds power is 13 | number of threads is 4 | block size is 64,,,
+elapsed time = 443.45 | seconds power is 14 | number of threads is 4 | block size is 64,,,
+elapsed time = 448.73 | seconds power is 15 | number of threads is 4 | block size is 64,,,
+elapsed time = 454.02 | seconds power is 16 | number of threads is 4 | block size is 64,,,
+2048 4 thread done,,,
+elapsed time = 6.60 | seconds power is 2 | number of threads is 6 | block size is 4,,,
+elapsed time = 13.17 | seconds power is 3 | number of threads is 6 | block size is 4,,,
+elapsed time = 19.73 | seconds power is 4 | number of threads is 6 | block size is 4,,,
+elapsed time = 26.31 | seconds power is 5 | number of threads is 6 | block size is 4,,,
+elapsed time = 32.90 | seconds power is 6 | number of threads is 6 | block size is 4,,,
+elapsed time = 39.47 | seconds power is 7 | number of threads is 6 | block size is 4,,,
+elapsed time = 46.10 | seconds power is 8 | number of threads is 6 | block size is 4,,,
+elapsed time = 52.78 | seconds power is 9 | number of threads is 6 | block size is 4,,,
+elapsed time = 59.49 | seconds power is 10 | number of threads is 6 | block size is 4,,,
+elapsed time = 66.08 | seconds power is 11 | number of threads is 6 | block size is 4,,,
+elapsed time = 72.67 | seconds power is 12 | number of threads is 6 | block size is 4,,,
+elapsed time = 79.27 | seconds power is 13 | number of threads is 6 | block size is 4,,,
+elapsed time = 85.90 | seconds power is 14 | number of threads is 6 | block size is 4,,,
+elapsed time = 92.46 | seconds power is 15 | number of threads is 6 | block size is 4,,,
+elapsed time = 99.07 | seconds power is 16 | number of threads is 6 | block size is 4,,,
+elapsed time = 103.28 | seconds power is 2 | number of threads is 6 | block size is 8,,,
+elapsed time = 107.49 | seconds power is 3 | number of threads is 6 | block size is 8,,,
+elapsed time = 111.70 | seconds power is 4 | number of threads is 6 | block size is 8,,,
+elapsed time = 115.92 | seconds power is 5 | number of threads is 6 | block size is 8,,,
+elapsed time = 120.15 | seconds power is 6 | number of threads is 6 | block size is 8,,,
+elapsed time = 124.36 | seconds power is 7 | number of threads is 6 | block size is 8,,,
+elapsed time = 128.58 | seconds power is 8 | number of threads is 6 | block size is 8,,,
+elapsed time = 132.84 | seconds power is 9 | number of threads is 6 | block size is 8,,,
+elapsed time = 137.05 | seconds power is 10 | number of threads is 6 | block size is 8,,,
+elapsed time = 141.27 | seconds power is 11 | number of threads is 6 | block size is 8,,,
+elapsed time = 145.52 | seconds power is 12 | number of threads is 6 | block size is 8,,,
+elapsed time = 149.73 | seconds power is 13 | number of threads is 6 | block size is 8,,,
+elapsed time = 153.95 | seconds power is 14 | number of threads is 6 | block size is 8,,,
+elapsed time = 158.17 | seconds power is 15 | number of threads is 6 | block size is 8,,,
+elapsed time = 162.39 | seconds power is 16 | number of threads is 6 | block size is 8,,,
+elapsed time = 166.57 | seconds power is 2 | number of threads is 6 | block size is 16,,,
+elapsed time = 170.74 | seconds power is 3 | number of threads is 6 | block size is 16,,,
+elapsed time = 174.93 | seconds power is 4 | number of threads is 6 | block size is 16,,,
+elapsed time = 179.13 | seconds power is 5 | number of threads is 6 | block size is 16,,,
+elapsed time = 183.29 | seconds power is 6 | number of threads is 6 | block size is 16,,,
+elapsed time = 187.46 | seconds power is 7 | number of threads is 6 | block size is 16,,,
+elapsed time = 191.63 | seconds power is 8 | number of threads is 6 | block size is 16,,,
+elapsed time = 195.80 | seconds power is 9 | number of threads is 6 | block size is 16,,,
+elapsed time = 200.00 | seconds power is 10 | number of threads is 6 | block size is 16,,,
+elapsed time = 204.16 | seconds power is 11 | number of threads is 6 | block size is 16,,,
+elapsed time = 208.33 | seconds power is 12 | number of threads is 6 | block size is 16,,,
+elapsed time = 212.50 | seconds power is 13 | number of threads is 6 | block size is 16,,,
+elapsed time = 216.68 | seconds power is 14 | number of threads is 6 | block size is 16,,,
+elapsed time = 220.85 | seconds power is 15 | number of threads is 6 | block size is 16,,,
+elapsed time = 225.06 | seconds power is 16 | number of threads is 6 | block size is 16,,,
+elapsed time = 229.29 | seconds power is 2 | number of threads is 6 | block size is 32,,,
+elapsed time = 233.52 | seconds power is 3 | number of threads is 6 | block size is 32,,,
+elapsed time = 237.76 | seconds power is 4 | number of threads is 6 | block size is 32,,,
+elapsed time = 242.00 | seconds power is 5 | number of threads is 6 | block size is 32,,,
+elapsed time = 246.24 | seconds power is 6 | number of threads is 6 | block size is 32,,,
+elapsed time = 250.48 | seconds power is 7 | number of threads is 6 | block size is 32,,,
+elapsed time = 254.72 | seconds power is 8 | number of threads is 6 | block size is 32,,,
+elapsed time = 258.95 | seconds power is 9 | number of threads is 6 | block size is 32,,,
+elapsed time = 263.20 | seconds power is 10 | number of threads is 6 | block size is 32,,,
+elapsed time = 267.44 | seconds power is 11 | number of threads is 6 | block size is 32,,,
+elapsed time = 271.67 | seconds power is 12 | number of threads is 6 | block size is 32,,,
+elapsed time = 275.91 | seconds power is 13 | number of threads is 6 | block size is 32,,,
+elapsed time = 280.14 | seconds power is 14 | number of threads is 6 | block size is 32,,,
+elapsed time = 284.38 | seconds power is 15 | number of threads is 6 | block size is 32,,,
+elapsed time = 288.61 | seconds power is 16 | number of threads is 6 | block size is 32,,,
+elapsed time = 293.02 | seconds power is 2 | number of threads is 6 | block size is 64,,,
+elapsed time = 297.45 | seconds power is 3 | number of threads is 6 | block size is 64,,,
+elapsed time = 301.96 | seconds power is 4 | number of threads is 6 | block size is 64,,,
+elapsed time = 306.43 | seconds power is 5 | number of threads is 6 | block size is 64,,,
+elapsed time = 310.92 | seconds power is 6 | number of threads is 6 | block size is 64,,,
+elapsed time = 315.26 | seconds power is 7 | number of threads is 6 | block size is 64,,,
+elapsed time = 319.76 | seconds power is 8 | number of threads is 6 | block size is 64,,,
+elapsed time = 324.19 | seconds power is 9 | number of threads is 6 | block size is 64,,,
+elapsed time = 328.65 | seconds power is 10 | number of threads is 6 | block size is 64,,,
+elapsed time = 333.06 | seconds power is 11 | number of threads is 6 | block size is 64,,,
+elapsed time = 337.51 | seconds power is 12 | number of threads is 6 | block size is 64,,,
+elapsed time = 342.02 | seconds power is 13 | number of threads is 6 | block size is 64,,,
+elapsed time = 346.48 | seconds power is 14 | number of threads is 6 | block size is 64,,,
+elapsed time = 350.96 | seconds power is 15 | number of threads is 6 | block size is 64,,,
+elapsed time = 355.30 | seconds power is 16 | number of threads is 6 | block size is 64,,,
+2048 6 thread done,,,
+elapsed time = 4.86 | seconds power is 2 | number of threads is 8 | block size is 4,,,
+elapsed time = 9.55 | seconds power is 3 | number of threads is 8 | block size is 4,,,
+elapsed time = 14.23 | seconds power is 4 | number of threads is 8 | block size is 4,,,
+elapsed time = 18.92 | seconds power is 5 | number of threads is 8 | block size is 4,,,
+elapsed time = 23.60 | seconds power is 6 | number of threads is 8 | block size is 4,,,
+elapsed time = 28.29 | seconds power is 7 | number of threads is 8 | block size is 4,,,
+elapsed time = 32.98 | seconds power is 8 | number of threads is 8 | block size is 4,,,
+elapsed time = 37.66 | seconds power is 9 | number of threads is 8 | block size is 4,,,
+elapsed time = 42.35 | seconds power is 10 | number of threads is 8 | block size is 4,,,
+elapsed time = 47.05 | seconds power is 11 | number of threads is 8 | block size is 4,,,
+elapsed time = 51.74 | seconds power is 12 | number of threads is 8 | block size is 4,,,
+elapsed time = 56.42 | seconds power is 13 | number of threads is 8 | block size is 4,,,
+elapsed time = 61.11 | seconds power is 14 | number of threads is 8 | block size is 4,,,
+elapsed time = 65.80 | seconds power is 15 | number of threads is 8 | block size is 4,,,
+elapsed time = 70.49 | seconds power is 16 | number of threads is 8 | block size is 4,,,
+elapsed time = 73.99 | seconds power is 2 | number of threads is 8 | block size is 8,,,
+elapsed time = 77.51 | seconds power is 3 | number of threads is 8 | block size is 8,,,
+elapsed time = 81.05 | seconds power is 4 | number of threads is 8 | block size is 8,,,
+elapsed time = 84.57 | seconds power is 5 | number of threads is 8 | block size is 8,,,
+elapsed time = 88.11 | seconds power is 6 | number of threads is 8 | block size is 8,,,
+elapsed time = 91.64 | seconds power is 7 | number of threads is 8 | block size is 8,,,
+elapsed time = 95.20 | seconds power is 8 | number of threads is 8 | block size is 8,,,
+elapsed time = 98.73 | seconds power is 9 | number of threads is 8 | block size is 8,,,
+elapsed time = 102.25 | seconds power is 10 | number of threads is 8 | block size is 8,,,
+elapsed time = 105.79 | seconds power is 11 | number of threads is 8 | block size is 8,,,
+elapsed time = 109.33 | seconds power is 12 | number of threads is 8 | block size is 8,,,
+elapsed time = 112.87 | seconds power is 13 | number of threads is 8 | block size is 8,,,
+elapsed time = 116.40 | seconds power is 14 | number of threads is 8 | block size is 8,,,
+elapsed time = 119.88 | seconds power is 15 | number of threads is 8 | block size is 8,,,
+elapsed time = 123.36 | seconds power is 16 | number of threads is 8 | block size is 8,,,
+elapsed time = 126.74 | seconds power is 2 | number of threads is 8 | block size is 16,,,
+elapsed time = 130.19 | seconds power is 3 | number of threads is 8 | block size is 16,,,
+elapsed time = 133.59 | seconds power is 4 | number of threads is 8 | block size is 16,,,
+elapsed time = 137.00 | seconds power is 5 | number of threads is 8 | block size is 16,,,
+elapsed time = 140.39 | seconds power is 6 | number of threads is 8 | block size is 16,,,
+elapsed time = 143.79 | seconds power is 7 | number of threads is 8 | block size is 16,,,
+elapsed time = 147.20 | seconds power is 8 | number of threads is 8 | block size is 16,,,
+elapsed time = 150.58 | seconds power is 9 | number of threads is 8 | block size is 16,,,
+elapsed time = 153.99 | seconds power is 10 | number of threads is 8 | block size is 16,,,
+elapsed time = 157.39 | seconds power is 11 | number of threads is 8 | block size is 16,,,
+elapsed time = 160.80 | seconds power is 12 | number of threads is 8 | block size is 16,,,
+elapsed time = 164.19 | seconds power is 13 | number of threads is 8 | block size is 16,,,
+elapsed time = 167.61 | seconds power is 14 | number of threads is 8 | block size is 16,,,
+elapsed time = 171.02 | seconds power is 15 | number of threads is 8 | block size is 16,,,
+elapsed time = 174.53 | seconds power is 16 | number of threads is 8 | block size is 16,,,
+elapsed time = 177.94 | seconds power is 2 | number of threads is 8 | block size is 32,,,
+elapsed time = 181.38 | seconds power is 3 | number of threads is 8 | block size is 32,,,
+elapsed time = 184.83 | seconds power is 4 | number of threads is 8 | block size is 32,,,
+elapsed time = 188.27 | seconds power is 5 | number of threads is 8 | block size is 32,,,
+elapsed time = 191.70 | seconds power is 6 | number of threads is 8 | block size is 32,,,
+elapsed time = 195.15 | seconds power is 7 | number of threads is 8 | block size is 32,,,
+elapsed time = 198.58 | seconds power is 8 | number of threads is 8 | block size is 32,,,
+elapsed time = 202.02 | seconds power is 9 | number of threads is 8 | block size is 32,,,
+elapsed time = 205.46 | seconds power is 10 | number of threads is 8 | block size is 32,,,
+elapsed time = 208.90 | seconds power is 11 | number of threads is 8 | block size is 32,,,
+elapsed time = 212.35 | seconds power is 12 | number of threads is 8 | block size is 32,,,
+elapsed time = 215.79 | seconds power is 13 | number of threads is 8 | block size is 32,,,
+elapsed time = 219.23 | seconds power is 14 | number of threads is 8 | block size is 32,,,
+elapsed time = 222.66 | seconds power is 15 | number of threads is 8 | block size is 32,,,
+elapsed time = 226.10 | seconds power is 16 | number of threads is 8 | block size is 32,,,
+elapsed time = 229.44 | seconds power is 2 | number of threads is 8 | block size is 64,,,
+elapsed time = 232.78 | seconds power is 3 | number of threads is 8 | block size is 64,,,
+elapsed time = 236.11 | seconds power is 4 | number of threads is 8 | block size is 64,,,
+elapsed time = 239.46 | seconds power is 5 | number of threads is 8 | block size is 64,,,
+elapsed time = 242.80 | seconds power is 6 | number of threads is 8 | block size is 64,,,
+elapsed time = 246.11 | seconds power is 7 | number of threads is 8 | block size is 64,,,
+elapsed time = 249.46 | seconds power is 8 | number of threads is 8 | block size is 64,,,
+elapsed time = 252.79 | seconds power is 9 | number of threads is 8 | block size is 64,,,
+elapsed time = 256.11 | seconds power is 10 | number of threads is 8 | block size is 64,,,
+elapsed time = 259.43 | seconds power is 11 | number of threads is 8 | block size is 64,,,
+elapsed time = 262.74 | seconds power is 12 | number of threads is 8 | block size is 64,,,
+elapsed time = 266.04 | seconds power is 13 | number of threads is 8 | block size is 64,,,
+elapsed time = 269.37 | seconds power is 14 | number of threads is 8 | block size is 64,,,
+elapsed time = 272.72 | seconds power is 15 | number of threads is 8 | block size is 64,,,
+elapsed time = 276.05 | seconds power is 16 | number of threads is 8 | block size is 64,,,
+2048 8 thread done,,,
+elapsed time = 4.52 | seconds power is 2 | number of threads is 10 | block size is 4,,,
+elapsed time = 8.97 | seconds power is 3 | number of threads is 10 | block size is 4,,,
+elapsed time = 13.54 | seconds power is 4 | number of threads is 10 | block size is 4,,,
+elapsed time = 18.05 | seconds power is 5 | number of threads is 10 | block size is 4,,,
+elapsed time = 22.49 | seconds power is 6 | number of threads is 10 | block size is 4,,,
+elapsed time = 26.99 | seconds power is 7 | number of threads is 10 | block size is 4,,,
+elapsed time = 31.54 | seconds power is 8 | number of threads is 10 | block size is 4,,,
+elapsed time = 36.09 | seconds power is 9 | number of threads is 10 | block size is 4,,,
+elapsed time = 40.67 | seconds power is 10 | number of threads is 10 | block size is 4,,,
+elapsed time = 45.09 | seconds power is 11 | number of threads is 10 | block size is 4,,,
+elapsed time = 49.75 | seconds power is 12 | number of threads is 10 | block size is 4,,,
+elapsed time = 54.23 | seconds power is 13 | number of threads is 10 | block size is 4,,,
+elapsed time = 58.78 | seconds power is 14 | number of threads is 10 | block size is 4,,,
+elapsed time = 63.26 | seconds power is 15 | number of threads is 10 | block size is 4,,,
+elapsed time = 67.74 | seconds power is 16 | number of threads is 10 | block size is 4,,,
+elapsed time = 71.31 | seconds power is 2 | number of threads is 10 | block size is 8,,,
+elapsed time = 75.11 | seconds power is 3 | number of threads is 10 | block size is 8,,,
+elapsed time = 78.87 | seconds power is 4 | number of threads is 10 | block size is 8,,,
+elapsed time = 82.46 | seconds power is 5 | number of threads is 10 | block size is 8,,,
+elapsed time = 86.21 | seconds power is 6 | number of threads is 10 | block size is 8,,,
+elapsed time = 89.97 | seconds power is 7 | number of threads is 10 | block size is 8,,,
+elapsed time = 93.72 | seconds power is 8 | number of threads is 10 | block size is 8,,,
+elapsed time = 97.30 | seconds power is 9 | number of threads is 10 | block size is 8,,,
+elapsed time = 101.00 | seconds power is 10 | number of threads is 10 | block size is 8,,,
+elapsed time = 104.71 | seconds power is 11 | number of threads is 10 | block size is 8,,,
+elapsed time = 108.30 | seconds power is 12 | number of threads is 10 | block size is 8,,,
+elapsed time = 112.08 | seconds power is 13 | number of threads is 10 | block size is 8,,,
+elapsed time = 115.85 | seconds power is 14 | number of threads is 10 | block size is 8,,,
+elapsed time = 119.38 | seconds power is 15 | number of threads is 10 | block size is 8,,,
+elapsed time = 123.09 | seconds power is 16 | number of threads is 10 | block size is 8,,,
+elapsed time = 126.65 | seconds power is 2 | number of threads is 10 | block size is 16,,,
+elapsed time = 129.91 | seconds power is 3 | number of threads is 10 | block size is 16,,,
+elapsed time = 133.30 | seconds power is 4 | number of threads is 10 | block size is 16,,,
+elapsed time = 136.73 | seconds power is 5 | number of threads is 10 | block size is 16,,,
+elapsed time = 140.16 | seconds power is 6 | number of threads is 10 | block size is 16,,,
+elapsed time = 143.72 | seconds power is 7 | number of threads is 10 | block size is 16,,,
+elapsed time = 147.08 | seconds power is 8 | number of threads is 10 | block size is 16,,,
+elapsed time = 150.56 | seconds power is 9 | number of threads is 10 | block size is 16,,,
+elapsed time = 153.93 | seconds power is 10 | number of threads is 10 | block size is 16,,,
+elapsed time = 157.38 | seconds power is 11 | number of threads is 10 | block size is 16,,,
+elapsed time = 160.97 | seconds power is 12 | number of threads is 10 | block size is 16,,,
+elapsed time = 164.35 | seconds power is 13 | number of threads is 10 | block size is 16,,,
+elapsed time = 167.95 | seconds power is 14 | number of threads is 10 | block size is 16,,,
+elapsed time = 171.33 | seconds power is 15 | number of threads is 10 | block size is 16,,,
+elapsed time = 174.88 | seconds power is 16 | number of threads is 10 | block size is 16,,,
+elapsed time = 178.07 | seconds power is 2 | number of threads is 10 | block size is 32,,,
+elapsed time = 181.69 | seconds power is 3 | number of threads is 10 | block size is 32,,,
+elapsed time = 185.00 | seconds power is 4 | number of threads is 10 | block size is 32,,,
+elapsed time = 188.47 | seconds power is 5 | number of threads is 10 | block size is 32,,,
+elapsed time = 191.65 | seconds power is 6 | number of threads is 10 | block size is 32,,,
+elapsed time = 195.14 | seconds power is 7 | number of threads is 10 | block size is 32,,,
+elapsed time = 198.37 | seconds power is 8 | number of threads is 10 | block size is 32,,,
+elapsed time = 201.68 | seconds power is 9 | number of threads is 10 | block size is 32,,,
+elapsed time = 205.21 | seconds power is 10 | number of threads is 10 | block size is 32,,,
+elapsed time = 208.82 | seconds power is 11 | number of threads is 10 | block size is 32,,,
+elapsed time = 212.30 | seconds power is 12 | number of threads is 10 | block size is 32,,,
+elapsed time = 215.77 | seconds power is 13 | number of threads is 10 | block size is 32,,,
+elapsed time = 219.26 | seconds power is 14 | number of threads is 10 | block size is 32,,,
+elapsed time = 222.71 | seconds power is 15 | number of threads is 10 | block size is 32,,,
+elapsed time = 226.26 | seconds power is 16 | number of threads is 10 | block size is 32,,,
+elapsed time = 230.13 | seconds power is 2 | number of threads is 10 | block size is 64,,,
+elapsed time = 234.08 | seconds power is 3 | number of threads is 10 | block size is 64,,,
+elapsed time = 237.49 | seconds power is 4 | number of threads is 10 | block size is 64,,,
+elapsed time = 241.44 | seconds power is 5 | number of threads is 10 | block size is 64,,,
+elapsed time = 244.99 | seconds power is 6 | number of threads is 10 | block size is 64,,,
+elapsed time = 248.33 | seconds power is 7 | number of threads is 10 | block size is 64,,,
+elapsed time = 252.37 | seconds power is 8 | number of threads is 10 | block size is 64,,,
+elapsed time = 256.29 | seconds power is 9 | number of threads is 10 | block size is 64,,,
+elapsed time = 259.97 | seconds power is 10 | number of threads is 10 | block size is 64,,,
+elapsed time = 262.99 | seconds power is 11 | number of threads is 10 | block size is 64,,,
+elapsed time = 265.99 | seconds power is 12 | number of threads is 10 | block size is 64,,,
+elapsed time = 269.01 | seconds power is 13 | number of threads is 10 | block size is 64,,,
+elapsed time = 272.79 | seconds power is 14 | number of threads is 10 | block size is 64,,,
+elapsed time = 275.83 | seconds power is 15 | number of threads is 10 | block size is 64,,,
+elapsed time = 279.30 | seconds power is 16 | number of threads is 10 | block size is 64,,,
+2048 10 thread done,,,
+elapsed time = 4.14 | seconds power is 2 | number of threads is 12 | block size is 4,,,
+elapsed time = 8.11 | seconds power is 3 | number of threads is 12 | block size is 4,,,
+elapsed time = 12.02 | seconds power is 4 | number of threads is 12 | block size is 4,,,
+elapsed time = 16.01 | seconds power is 5 | number of threads is 12 | block size is 4,,,
+elapsed time = 19.97 | seconds power is 6 | number of threads is 12 | block size is 4,,,
+elapsed time = 23.90 | seconds power is 7 | number of threads is 12 | block size is 4,,,
+elapsed time = 27.84 | seconds power is 8 | number of threads is 12 | block size is 4,,,
+elapsed time = 31.76 | seconds power is 9 | number of threads is 12 | block size is 4,,,
+elapsed time = 35.67 | seconds power is 10 | number of threads is 12 | block size is 4,,,
+elapsed time = 39.59 | seconds power is 11 | number of threads is 12 | block size is 4,,,
+elapsed time = 43.54 | seconds power is 12 | number of threads is 12 | block size is 4,,,
+elapsed time = 47.48 | seconds power is 13 | number of threads is 12 | block size is 4,,,
+elapsed time = 51.40 | seconds power is 14 | number of threads is 12 | block size is 4,,,
+elapsed time = 55.33 | seconds power is 15 | number of threads is 12 | block size is 4,,,
+elapsed time = 59.27 | seconds power is 16 | number of threads is 12 | block size is 4,,,
+elapsed time = 62.44 | seconds power is 2 | number of threads is 12 | block size is 8,,,
+elapsed time = 65.65 | seconds power is 3 | number of threads is 12 | block size is 8,,,
+elapsed time = 68.85 | seconds power is 4 | number of threads is 12 | block size is 8,,,
+elapsed time = 72.04 | seconds power is 5 | number of threads is 12 | block size is 8,,,
+elapsed time = 75.23 | seconds power is 6 | number of threads is 12 | block size is 8,,,
+elapsed time = 78.43 | seconds power is 7 | number of threads is 12 | block size is 8,,,
+elapsed time = 81.62 | seconds power is 8 | number of threads is 12 | block size is 8,,,
+elapsed time = 84.82 | seconds power is 9 | number of threads is 12 | block size is 8,,,
+elapsed time = 88.05 | seconds power is 10 | number of threads is 12 | block size is 8,,,
+elapsed time = 91.33 | seconds power is 11 | number of threads is 12 | block size is 8,,,
+elapsed time = 94.54 | seconds power is 12 | number of threads is 12 | block size is 8,,,
+elapsed time = 97.72 | seconds power is 13 | number of threads is 12 | block size is 8,,,
+elapsed time = 100.92 | seconds power is 14 | number of threads is 12 | block size is 8,,,
+elapsed time = 104.26 | seconds power is 15 | number of threads is 12 | block size is 8,,,
+elapsed time = 107.44 | seconds power is 16 | number of threads is 12 | block size is 8,,,
+elapsed time = 110.52 | seconds power is 2 | number of threads is 12 | block size is 16,,,
+elapsed time = 113.59 | seconds power is 3 | number of threads is 12 | block size is 16,,,
+elapsed time = 116.66 | seconds power is 4 | number of threads is 12 | block size is 16,,,
+elapsed time = 119.74 | seconds power is 5 | number of threads is 12 | block size is 16,,,
+elapsed time = 122.80 | seconds power is 6 | number of threads is 12 | block size is 16,,,
+elapsed time = 125.86 | seconds power is 7 | number of threads is 12 | block size is 16,,,
+elapsed time = 128.93 | seconds power is 8 | number of threads is 12 | block size is 16,,,
+elapsed time = 132.06 | seconds power is 9 | number of threads is 12 | block size is 16,,,
+elapsed time = 135.15 | seconds power is 10 | number of threads is 12 | block size is 16,,,
+elapsed time = 138.29 | seconds power is 11 | number of threads is 12 | block size is 16,,,
+elapsed time = 141.36 | seconds power is 12 | number of threads is 12 | block size is 16,,,
+elapsed time = 144.44 | seconds power is 13 | number of threads is 12 | block size is 16,,,
+elapsed time = 147.49 | seconds power is 14 | number of threads is 12 | block size is 16,,,
+elapsed time = 150.56 | seconds power is 15 | number of threads is 12 | block size is 16,,,
+elapsed time = 153.63 | seconds power is 16 | number of threads is 12 | block size is 16,,,
+elapsed time = 156.77 | seconds power is 2 | number of threads is 12 | block size is 32,,,
+elapsed time = 159.61 | seconds power is 3 | number of threads is 12 | block size is 32,,,
+elapsed time = 162.76 | seconds power is 4 | number of threads is 12 | block size is 32,,,
+elapsed time = 165.90 | seconds power is 5 | number of threads is 12 | block size is 32,,,
+elapsed time = 169.02 | seconds power is 6 | number of threads is 12 | block size is 32,,,
+elapsed time = 172.26 | seconds power is 7 | number of threads is 12 | block size is 32,,,
+elapsed time = 175.38 | seconds power is 8 | number of threads is 12 | block size is 32,,,
+elapsed time = 178.46 | seconds power is 9 | number of threads is 12 | block size is 32,,,
+elapsed time = 181.55 | seconds power is 10 | number of threads is 12 | block size is 32,,,
+elapsed time = 184.64 | seconds power is 11 | number of threads is 12 | block size is 32,,,
+elapsed time = 187.76 | seconds power is 12 | number of threads is 12 | block size is 32,,,
+elapsed time = 190.86 | seconds power is 13 | number of threads is 12 | block size is 32,,,
+elapsed time = 193.98 | seconds power is 14 | number of threads is 12 | block size is 32,,,
+elapsed time = 197.22 | seconds power is 15 | number of threads is 12 | block size is 32,,,
+elapsed time = 200.33 | seconds power is 16 | number of threads is 12 | block size is 32,,,
+elapsed time = 203.50 | seconds power is 2 | number of threads is 12 | block size is 64,,,
+elapsed time = 206.58 | seconds power is 3 | number of threads is 12 | block size is 64,,,
+elapsed time = 209.66 | seconds power is 4 | number of threads is 12 | block size is 64,,,
+elapsed time = 212.78 | seconds power is 5 | number of threads is 12 | block size is 64,,,
+elapsed time = 215.88 | seconds power is 6 | number of threads is 12 | block size is 64,,,
+elapsed time = 218.99 | seconds power is 7 | number of threads is 12 | block size is 64,,,
+elapsed time = 222.18 | seconds power is 8 | number of threads is 12 | block size is 64,,,
+elapsed time = 225.32 | seconds power is 9 | number of threads is 12 | block size is 64,,,
+elapsed time = 228.42 | seconds power is 10 | number of threads is 12 | block size is 64,,,
+elapsed time = 231.52 | seconds power is 11 | number of threads is 12 | block size is 64,,,
+elapsed time = 234.65 | seconds power is 12 | number of threads is 12 | block size is 64,,,
+elapsed time = 237.75 | seconds power is 13 | number of threads is 12 | block size is 64,,,
+elapsed time = 240.88 | seconds power is 14 | number of threads is 12 | block size is 64,,,
+elapsed time = 243.99 | seconds power is 15 | number of threads is 12 | block size is 64,,,
+elapsed time = 247.17 | seconds power is 16 | number of threads is 12 | block size is 64,,,
+2048 12 thread done,,,
+elapsed time = 3.97 | seconds power is 2 | number of threads is 14 | block size is 4,,,
+elapsed time = 8.09 | seconds power is 3 | number of threads is 14 | block size is 4,,,
+elapsed time = 12.04 | seconds power is 4 | number of threads is 14 | block size is 4,,,
+elapsed time = 16.09 | seconds power is 5 | number of threads is 14 | block size is 4,,,
+elapsed time = 20.13 | seconds power is 6 | number of threads is 14 | block size is 4,,,
+elapsed time = 24.17 | seconds power is 7 | number of threads is 14 | block size is 4,,,
+elapsed time = 28.12 | seconds power is 8 | number of threads is 14 | block size is 4,,,
+elapsed time = 32.08 | seconds power is 9 | number of threads is 14 | block size is 4,,,
+elapsed time = 36.12 | seconds power is 10 | number of threads is 14 | block size is 4,,,
+elapsed time = 40.12 | seconds power is 11 | number of threads is 14 | block size is 4,,,
+elapsed time = 44.10 | seconds power is 12 | number of threads is 14 | block size is 4,,,
+elapsed time = 48.10 | seconds power is 13 | number of threads is 14 | block size is 4,,,
+elapsed time = 52.18 | seconds power is 14 | number of threads is 14 | block size is 4,,,
+elapsed time = 56.13 | seconds power is 15 | number of threads is 14 | block size is 4,,,
+elapsed time = 60.12 | seconds power is 16 | number of threads is 14 | block size is 4,,,
+elapsed time = 63.43 | seconds power is 2 | number of threads is 14 | block size is 8,,,
+elapsed time = 66.66 | seconds power is 3 | number of threads is 14 | block size is 8,,,
+elapsed time = 69.84 | seconds power is 4 | number of threads is 14 | block size is 8,,,
+elapsed time = 73.08 | seconds power is 5 | number of threads is 14 | block size is 8,,,
+elapsed time = 76.32 | seconds power is 6 | number of threads is 14 | block size is 8,,,
+elapsed time = 79.50 | seconds power is 7 | number of threads is 14 | block size is 8,,,
+elapsed time = 82.66 | seconds power is 8 | number of threads is 14 | block size is 8,,,
+elapsed time = 85.73 | seconds power is 9 | number of threads is 14 | block size is 8,,,
+elapsed time = 88.91 | seconds power is 10 | number of threads is 14 | block size is 8,,,
+elapsed time = 92.05 | seconds power is 11 | number of threads is 14 | block size is 8,,,
+elapsed time = 95.19 | seconds power is 12 | number of threads is 14 | block size is 8,,,
+elapsed time = 98.37 | seconds power is 13 | number of threads is 14 | block size is 8,,,
+elapsed time = 101.48 | seconds power is 14 | number of threads is 14 | block size is 8,,,
+elapsed time = 104.68 | seconds power is 15 | number of threads is 14 | block size is 8,,,
+elapsed time = 107.79 | seconds power is 16 | number of threads is 14 | block size is 8,,,
+elapsed time = 110.99 | seconds power is 2 | number of threads is 14 | block size is 16,,,
+elapsed time = 114.11 | seconds power is 3 | number of threads is 14 | block size is 16,,,
+elapsed time = 117.16 | seconds power is 4 | number of threads is 14 | block size is 16,,,
+elapsed time = 120.34 | seconds power is 5 | number of threads is 14 | block size is 16,,,
+elapsed time = 123.39 | seconds power is 6 | number of threads is 14 | block size is 16,,,
+elapsed time = 126.45 | seconds power is 7 | number of threads is 14 | block size is 16,,,
+elapsed time = 129.51 | seconds power is 8 | number of threads is 14 | block size is 16,,,
+elapsed time = 132.68 | seconds power is 9 | number of threads is 14 | block size is 16,,,
+elapsed time = 135.72 | seconds power is 10 | number of threads is 14 | block size is 16,,,
+elapsed time = 138.90 | seconds power is 11 | number of threads is 14 | block size is 16,,,
+elapsed time = 142.18 | seconds power is 12 | number of threads is 14 | block size is 16,,,
+elapsed time = 145.54 | seconds power is 13 | number of threads is 14 | block size is 16,,,
+elapsed time = 148.53 | seconds power is 14 | number of threads is 14 | block size is 16,,,
+elapsed time = 151.72 | seconds power is 15 | number of threads is 14 | block size is 16,,,
+elapsed time = 154.75 | seconds power is 16 | number of threads is 14 | block size is 16,,,
+elapsed time = 157.93 | seconds power is 2 | number of threads is 14 | block size is 32,,,
+elapsed time = 161.12 | seconds power is 3 | number of threads is 14 | block size is 32,,,
+elapsed time = 164.27 | seconds power is 4 | number of threads is 14 | block size is 32,,,
+elapsed time = 167.41 | seconds power is 5 | number of threads is 14 | block size is 32,,,
+elapsed time = 170.54 | seconds power is 6 | number of threads is 14 | block size is 32,,,
+elapsed time = 173.82 | seconds power is 7 | number of threads is 14 | block size is 32,,,
+elapsed time = 176.88 | seconds power is 8 | number of threads is 14 | block size is 32,,,
+elapsed time = 180.00 | seconds power is 9 | number of threads is 14 | block size is 32,,,
+elapsed time = 183.11 | seconds power is 10 | number of threads is 14 | block size is 32,,,
+elapsed time = 186.30 | seconds power is 11 | number of threads is 14 | block size is 32,,,
+elapsed time = 189.47 | seconds power is 12 | number of threads is 14 | block size is 32,,,
+elapsed time = 192.74 | seconds power is 13 | number of threads is 14 | block size is 32,,,
+elapsed time = 195.83 | seconds power is 14 | number of threads is 14 | block size is 32,,,
+elapsed time = 198.97 | seconds power is 15 | number of threads is 14 | block size is 32,,,
+elapsed time = 202.18 | seconds power is 16 | number of threads is 14 | block size is 32,,,
+elapsed time = 205.51 | seconds power is 2 | number of threads is 14 | block size is 64,,,
+elapsed time = 209.02 | seconds power is 3 | number of threads is 14 | block size is 64,,,
+elapsed time = 212.29 | seconds power is 4 | number of threads is 14 | block size is 64,,,
+elapsed time = 215.73 | seconds power is 5 | number of threads is 14 | block size is 64,,,
+elapsed time = 219.06 | seconds power is 6 | number of threads is 14 | block size is 64,,,
+elapsed time = 222.34 | seconds power is 7 | number of threads is 14 | block size is 64,,,
+elapsed time = 225.74 | seconds power is 8 | number of threads is 14 | block size is 64,,,
+elapsed time = 229.05 | seconds power is 9 | number of threads is 14 | block size is 64,,,
+elapsed time = 232.45 | seconds power is 10 | number of threads is 14 | block size is 64,,,
+elapsed time = 235.76 | seconds power is 11 | number of threads is 14 | block size is 64,,,
+elapsed time = 239.08 | seconds power is 12 | number of threads is 14 | block size is 64,,,
+elapsed time = 242.50 | seconds power is 13 | number of threads is 14 | block size is 64,,,
+elapsed time = 245.80 | seconds power is 14 | number of threads is 14 | block size is 64,,,
+elapsed time = 249.14 | seconds power is 15 | number of threads is 14 | block size is 64,,,
+elapsed time = 252.52 | seconds power is 16 | number of threads is 14 | block size is 64,,,
+2048 14 thread done,,,
+elapsed time = 3.63 | seconds power is 2 | number of threads is 16 | block size is 4,,,
+elapsed time = 7.36 | seconds power is 3 | number of threads is 16 | block size is 4,,,
+elapsed time = 11.03 | seconds power is 4 | number of threads is 16 | block size is 4,,,
+elapsed time = 14.73 | seconds power is 5 | number of threads is 16 | block size is 4,,,
+elapsed time = 18.41 | seconds power is 6 | number of threads is 16 | block size is 4,,,
+elapsed time = 22.13 | seconds power is 7 | number of threads is 16 | block size is 4,,,
+elapsed time = 25.82 | seconds power is 8 | number of threads is 16 | block size is 4,,,
+elapsed time = 29.50 | seconds power is 9 | number of threads is 16 | block size is 4,,,
+elapsed time = 33.22 | seconds power is 10 | number of threads is 16 | block size is 4,,,
+elapsed time = 36.91 | seconds power is 11 | number of threads is 16 | block size is 4,,,
+elapsed time = 40.60 | seconds power is 12 | number of threads is 16 | block size is 4,,,
+elapsed time = 44.25 | seconds power is 13 | number of threads is 16 | block size is 4,,,
+elapsed time = 47.95 | seconds power is 14 | number of threads is 16 | block size is 4,,,
+elapsed time = 51.62 | seconds power is 15 | number of threads is 16 | block size is 4,,,
+elapsed time = 55.39 | seconds power is 16 | number of threads is 16 | block size is 4,,,
+elapsed time = 58.44 | seconds power is 2 | number of threads is 16 | block size is 8,,,
+elapsed time = 61.54 | seconds power is 3 | number of threads is 16 | block size is 8,,,
+elapsed time = 64.61 | seconds power is 4 | number of threads is 16 | block size is 8,,,
+elapsed time = 67.67 | seconds power is 5 | number of threads is 16 | block size is 8,,,
+elapsed time = 70.73 | seconds power is 6 | number of threads is 16 | block size is 8,,,
+elapsed time = 73.75 | seconds power is 7 | number of threads is 16 | block size is 8,,,
+elapsed time = 76.80 | seconds power is 8 | number of threads is 16 | block size is 8,,,
+elapsed time = 79.84 | seconds power is 9 | number of threads is 16 | block size is 8,,,
+elapsed time = 82.86 | seconds power is 10 | number of threads is 16 | block size is 8,,,
+elapsed time = 85.88 | seconds power is 11 | number of threads is 16 | block size is 8,,,
+elapsed time = 88.93 | seconds power is 12 | number of threads is 16 | block size is 8,,,
+elapsed time = 91.97 | seconds power is 13 | number of threads is 16 | block size is 8,,,
+elapsed time = 94.99 | seconds power is 14 | number of threads is 16 | block size is 8,,,
+elapsed time = 98.01 | seconds power is 15 | number of threads is 16 | block size is 8,,,
+elapsed time = 101.04 | seconds power is 16 | number of threads is 16 | block size is 8,,,
+elapsed time = 103.97 | seconds power is 2 | number of threads is 16 | block size is 16,,,
+elapsed time = 106.94 | seconds power is 3 | number of threads is 16 | block size is 16,,,
+elapsed time = 109.95 | seconds power is 4 | number of threads is 16 | block size is 16,,,
+elapsed time = 112.90 | seconds power is 5 | number of threads is 16 | block size is 16,,,
+elapsed time = 115.84 | seconds power is 6 | number of threads is 16 | block size is 16,,,
+elapsed time = 118.81 | seconds power is 7 | number of threads is 16 | block size is 16,,,
+elapsed time = 121.77 | seconds power is 8 | number of threads is 16 | block size is 16,,,
+elapsed time = 124.76 | seconds power is 9 | number of threads is 16 | block size is 16,,,
+elapsed time = 127.70 | seconds power is 10 | number of threads is 16 | block size is 16,,,
+elapsed time = 130.66 | seconds power is 11 | number of threads is 16 | block size is 16,,,
+elapsed time = 133.65 | seconds power is 12 | number of threads is 16 | block size is 16,,,
+elapsed time = 136.60 | seconds power is 13 | number of threads is 16 | block size is 16,,,
+elapsed time = 139.56 | seconds power is 14 | number of threads is 16 | block size is 16,,,
+elapsed time = 142.57 | seconds power is 15 | number of threads is 16 | block size is 16,,,
+elapsed time = 145.57 | seconds power is 16 | number of threads is 16 | block size is 16,,,
+elapsed time = 148.53 | seconds power is 2 | number of threads is 16 | block size is 32,,,
+elapsed time = 151.46 | seconds power is 3 | number of threads is 16 | block size is 32,,,
+elapsed time = 154.39 | seconds power is 4 | number of threads is 16 | block size is 32,,,
+elapsed time = 157.40 | seconds power is 5 | number of threads is 16 | block size is 32,,,
+elapsed time = 160.32 | seconds power is 6 | number of threads is 16 | block size is 32,,,
+elapsed time = 163.29 | seconds power is 7 | number of threads is 16 | block size is 32,,,
+elapsed time = 166.32 | seconds power is 8 | number of threads is 16 | block size is 32,,,
+elapsed time = 169.24 | seconds power is 9 | number of threads is 16 | block size is 32,,,
+elapsed time = 172.15 | seconds power is 10 | number of threads is 16 | block size is 32,,,
+elapsed time = 175.13 | seconds power is 11 | number of threads is 16 | block size is 32,,,
+elapsed time = 178.07 | seconds power is 12 | number of threads is 16 | block size is 32,,,
+elapsed time = 181.00 | seconds power is 13 | number of threads is 16 | block size is 32,,,
+elapsed time = 184.00 | seconds power is 14 | number of threads is 16 | block size is 32,,,
+elapsed time = 186.93 | seconds power is 15 | number of threads is 16 | block size is 32,,,
+elapsed time = 189.87 | seconds power is 16 | number of threads is 16 | block size is 32,,,
+elapsed time = 192.81 | seconds power is 2 | number of threads is 16 | block size is 64,,,
+elapsed time = 195.74 | seconds power is 3 | number of threads is 16 | block size is 64,,,
+elapsed time = 198.67 | seconds power is 4 | number of threads is 16 | block size is 64,,,
+elapsed time = 201.55 | seconds power is 5 | number of threads is 16 | block size is 64,,,
+elapsed time = 204.43 | seconds power is 6 | number of threads is 16 | block size is 64,,,
+elapsed time = 207.36 | seconds power is 7 | number of threads is 16 | block size is 64,,,
+elapsed time = 210.29 | seconds power is 8 | number of threads is 16 | block size is 64,,,
+elapsed time = 213.22 | seconds power is 9 | number of threads is 16 | block size is 64,,,
+elapsed time = 216.15 | seconds power is 10 | number of threads is 16 | block size is 64,,,
+elapsed time = 219.06 | seconds power is 11 | number of threads is 16 | block size is 64,,,
+elapsed time = 222.01 | seconds power is 12 | number of threads is 16 | block size is 64,,,
+elapsed time = 224.96 | seconds power is 13 | number of threads is 16 | block size is 64,,,
+elapsed time = 227.95 | seconds power is 14 | number of threads is 16 | block size is 64,,,
+elapsed time = 230.87 | seconds power is 15 | number of threads is 16 | block size is 64,,,
+elapsed time = 233.79 | seconds power is 16 | number of threads is 16 | block size is 64,,,
+2048 16 thread done,,,
