@@ -1,0 +1,96 @@
+Elapsed time = 0.909740 seconds | No. of threads = 1
+Elapsed time = 0.705510 seconds | No. of threads = 1
+Elapsed time = 0.701270 seconds | No. of threads = 1
+Elapsed time = 0.701870 seconds | No. of threads = 1
+Elapsed time = 0.704640 seconds | No. of threads = 1
+Average time elapsed for 1 threads: 0.744606
+Elapsed time = 0.510740 seconds | No. of threads = 2
+Elapsed time = 0.489830 seconds | No. of threads = 2
+Elapsed time = 0.482540 seconds | No. of threads = 2
+Elapsed time = 0.494350 seconds | No. of threads = 2
+Elapsed time = 0.490260 seconds | No. of threads = 2
+Average time elapsed for 2 threads: 0.493544
+Elapsed time = 0.473210 seconds | No. of threads = 3
+Elapsed time = 0.532090 seconds | No. of threads = 3
+Elapsed time = 0.520210 seconds | No. of threads = 3
+Elapsed time = 0.475500 seconds | No. of threads = 3
+Elapsed time = 0.471460 seconds | No. of threads = 3
+Average time elapsed for 3 threads: 0.494494
+Elapsed time = 0.525230 seconds | No. of threads = 4
+Elapsed time = 0.461330 seconds | No. of threads = 4
+Elapsed time = 0.467680 seconds | No. of threads = 4
+Elapsed time = 0.466670 seconds | No. of threads = 4
+Elapsed time = 0.515250 seconds | No. of threads = 4
+Average time elapsed for 4 threads: 0.487232
+Elapsed time = 0.495970 seconds | No. of threads = 5
+Elapsed time = 0.463600 seconds | No. of threads = 5
+Elapsed time = 0.446680 seconds | No. of threads = 5
+Elapsed time = 0.453660 seconds | No. of threads = 5
+Elapsed time = 0.499280 seconds | No. of threads = 5
+Average time elapsed for 5 threads: 0.471838
+Elapsed time = 0.499060 seconds | No. of threads = 6
+Elapsed time = 0.501910 seconds | No. of threads = 6
+Elapsed time = 0.502130 seconds | No. of threads = 6
+Elapsed time = 0.501000 seconds | No. of threads = 6
+Elapsed time = 0.469920 seconds | No. of threads = 6
+Average time elapsed for 6 threads: 0.494804
+Elapsed time = 0.508100 seconds | No. of threads = 7
+Elapsed time = 0.499080 seconds | No. of threads = 7
+Elapsed time = 0.511010 seconds | No. of threads = 7
+Elapsed time = 0.469670 seconds | No. of threads = 7
+Elapsed time = 0.505800 seconds | No. of threads = 7
+Average time elapsed for 7 threads: 0.498732
+Elapsed time = 0.497300 seconds | No. of threads = 8
+Elapsed time = 0.506600 seconds | No. of threads = 8
+Elapsed time = 0.518590 seconds | No. of threads = 8
+Elapsed time = 0.490690 seconds | No. of threads = 8
+Elapsed time = 0.533320 seconds | No. of threads = 8
+Average time elapsed for 8 threads: 0.509300
+Elapsed time = 0.504690 seconds | No. of threads = 9
+Elapsed time = 0.524960 seconds | No. of threads = 9
+Elapsed time = 0.514280 seconds | No. of threads = 9
+Elapsed time = 0.506720 seconds | No. of threads = 9
+Elapsed time = 0.516210 seconds | No. of threads = 9
+Average time elapsed for 9 threads: 0.513372
+Elapsed time = 0.570930 seconds | No. of threads = 10
+Elapsed time = 0.485650 seconds | No. of threads = 10
+Elapsed time = 0.539840 seconds | No. of threads = 10
+Elapsed time = 0.496820 seconds | No. of threads = 10
+Elapsed time = 0.541550 seconds | No. of threads = 10
+Average time elapsed for 10 threads: 0.526958
+Elapsed time = 0.532950 seconds | No. of threads = 11
+Elapsed time = 0.568960 seconds | No. of threads = 11
+Elapsed time = 0.520220 seconds | No. of threads = 11
+Elapsed time = 0.561850 seconds | No. of threads = 11
+Elapsed time = 0.535110 seconds | No. of threads = 11
+Average time elapsed for 11 threads: 0.543818
+Elapsed time = 0.508820 seconds | No. of threads = 12
+Elapsed time = 0.512390 seconds | No. of threads = 12
+Elapsed time = 0.534230 seconds | No. of threads = 12
+Elapsed time = 0.518770 seconds | No. of threads = 12
+Elapsed time = 0.516490 seconds | No. of threads = 12
+Average time elapsed for 12 threads: 0.518140
+Elapsed time = 0.534820 seconds | No. of threads = 13
+Elapsed time = 0.528750 seconds | No. of threads = 13
+Elapsed time = 0.552770 seconds | No. of threads = 13
+Elapsed time = 0.561640 seconds | No. of threads = 13
+Elapsed time = 0.560950 seconds | No. of threads = 13
+Average time elapsed for 13 threads: 0.547786
+Elapsed time = 0.541090 seconds | No. of threads = 14
+Elapsed time = 0.558580 seconds | No. of threads = 14
+Elapsed time = 0.592070 seconds | No. of threads = 14
+Elapsed time = 0.541830 seconds | No. of threads = 14
+Elapsed time = 0.580580 seconds | No. of threads = 14
+Average time elapsed for 14 threads: 0.562830
+Elapsed time = 0.560640 seconds | No. of threads = 15
+Elapsed time = 0.548100 seconds | No. of threads = 15
+Elapsed time = 0.524630 seconds | No. of threads = 15
+Elapsed time = 0.505770 seconds | No. of threads = 15
+Elapsed time = 0.530470 seconds | No. of threads = 15
+Average time elapsed for 15 threads: 0.533922
+Elapsed time = 0.544730 seconds | No. of threads = 16
+Elapsed time = 0.570120 seconds | No. of threads = 16
+Elapsed time = 0.512210 seconds | No. of threads = 16
+Elapsed time = 0.577580 seconds | No. of threads = 16
+Elapsed time = 0.553830 seconds | No. of threads = 16
+Average time elapsed for 16 threads: 0.551694
