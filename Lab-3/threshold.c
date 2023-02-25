@@ -1,47 +1,58 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include<math.h>
+#include<math.h> 
+#include<limits.h>
 #include<string.h>
 
-void generate(int n,int** arr){ 
-    // memset(arr[0], 0, n * n * sizeof(int)); 
+void generate(int r,int c,int **arr){ 
     srand(time(NULL));
-    for(int i=0;i<n;i++)
+    for(int i=0;i<r;i++)
     { 
-        for(int j=0;j<n;j++)
+        for(int j=0;j<c;j++)
         {
             arr[i][j]=rand() % 301;
         }
     }
 } 
 
-int check(int n,int** arr,int x){
-    int c=0;
-    for(int i=0;i<n;i++)
+int check(int r, int c,int **arr,int x, int per) {
+    int count=0;
+    for(int i=0;i<r;i++)
     {   
-        for(int j=0;j<n;j++)
+        for(int j=0;j<c;j++)
         {
             if(arr[i][j]>x)
             {
-                c=c+1;
+                count=count+1;
+                if(count>per)
+                    return count;
             }
         } 
     } 
-
-    return c;
+    return count;
 }
 
 
-void threshold(int p,int n,int** arr,int** img){
-    int x=round((n*n)*(p/100));
+void threshold(int p,int r, int c,int** arr,int** img){
+    int prod = r*c*p;
+    int x=prod/100;
+    int k; 
+    // int min=INT_MIN;
     
-    for(int i=0;i<n;i++)
-    {   //int c=0;
-        for(int j=0;j<n;j++)
+    for(int i=0;i<r;i++)
+    {   int count=0;
+        for(int j=0;j<c;j++)
         { 
-            int c=check(n,arr,arr[i][j]);
-             if(c<=x)
+            k = arr[i][j];
+            // if(k>min){
+            //     img[i][j]=0;
+            //     min=k;
+            //     continue;
+            // }
+            count=check(r, c, arr, k, x);
+            printf("%d ",count);
+             if(count<=x)
             {
                 img[i][j]=1;
             } 
@@ -50,15 +61,15 @@ void threshold(int p,int n,int** arr,int** img){
                 img[i][j]=0;
             }
         } 
-       
+        printf("\n");
     }
 }
 
 
-void print(int n,int** arr){
-   for(int i=0;i<n;i++)
+void print(int r, int c,int **arr){
+   for(int i=0;i<r;i++)
     { 
-        for(int j=0;j<n;j++)
+        for(int j=0;j<c;j++)
         {
             printf("%d ",arr[i][j]);
         } 
@@ -68,30 +79,31 @@ void print(int n,int** arr){
 
 int main(int argc,char* argv[]){
     // argv 1 is size of matrix and 2 is percentage of matrix
-    int n=atoi(argv[1]);
-    int p=atoi(argv[2]);  
+    int r=5;
+    int c=5;
+    int p=10;
     int **matrix;
-    matrix = (int **)malloc(n * sizeof(int *));
+    matrix = (int **)malloc(r * sizeof(int *));
     // making it two dimensional
-    for (int row = 0; row < n; row++)
+    for (int row = 0; row < r; row++)
     {
-        matrix[row] = (int *)malloc(n * sizeof(int));
+        matrix[row] = (int *)malloc(c * sizeof(int));
     }  
 
     int **bin_img;
-    bin_img = (int **)malloc(n * sizeof(int *));
+    bin_img = (int **)malloc(r * sizeof(int *));
     // making it two dimensional
-    for (int row = 0; row < n; row++)
+    for (int row = 0; row < r; row++)
     {
-        bin_img[row] = (int *)malloc(n * sizeof(int));
+        bin_img[row] = (int *)malloc(c * sizeof(int));
     } 
 
-    generate(n,matrix);  
-    print(n,matrix); 
-    threshold(p,n,matrix,bin_img); 
-    print(n,bin_img);
-
-
-    
-   
+    generate(r,c,matrix);  
+    print(r,c,matrix); 
+    printf("-----------------------------------------");
+    printf("\n");
+    threshold(p,r,c,matrix,bin_img); 
+    printf("-----------------------------------------");
+    printf("\n");
+    print(r,c,bin_img);
 }
