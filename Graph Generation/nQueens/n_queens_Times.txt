@@ -1,0 +1,216 @@
+u17555@inhydmecrech01:~$ ./a.out 16 1
+Number of queens: 16
+Number of threads: 1
+Number of solutions: 14772512
+Time elapsed: 457.043 seconds
+
+u17555@inhydmecrech01:~$ ./a.out 16 2
+Number of queens: 16
+Number of threads: 2
+Number of solutions: 14772512
+Time elapsed: 442.481 seconds
+
+u17555@inhydmecrech01:~$ ./a.out 16 4
+Number of queens: 16
+Number of threads: 4
+Number of solutions: 14772512
+Time elapsed: 262.071 seconds
+
+u17555@inhydmecrech01:~$ ./a.out 16 6
+Number of queens: 16
+Number of threads: 6
+Number of solutions: 14772512
+Time elapsed: 221.214 seconds
+
+u17555@inhydmecrech01:~$ ./a.out 16 8
+Number of queens: 16
+Number of threads: 8
+Number of solutions: 14772512
+Time elapsed: 162.754 seconds
+
+u17555@inhydmecrech01:~$ ./a.out 16 10
+Number of queens: 16
+Number of threads: 10
+Number of solutions: 14772512
+Time elapsed: 171.139 seconds
+
+u17555@inhydmecrech01:~$ ./a.out 16 12
+Number of queens: 16
+Number of threads: 12
+Number of solutions: 14772512
+Time elapsed: 176.719 seconds
+
+u17555@inhydmecrech01:~$ ./a.out 16 14
+Number of queens: 16
+Number of threads: 14
+Number of solutions: 14772512
+Time elapsed: 160.699 seconds
+
+u17555@inhydmecrech01:~$ ./a.out 16 16
+Number of queens: 16
+Number of threads: 16
+Number of solutions: 14772512
+Time elapsed: 123.357 seconds
+
+u17555@inhydmecrech01:~$ ./a.out 14 1
+Number of queens: 14
+Number of threads: 1
+Number of solutions: 365596
+Time elapsed: 9.48494 seconds
+
+u17555@inhydmecrech01:~$ ./a.out 14 2
+Number of queens: 14
+Number of threads: 2
+Number of solutions: 365596
+Time elapsed: 11.018 seconds
+
+u17555@inhydmecrech01:~$ ./a.out 14 4
+Number of queens: 14
+Number of threads: 4
+Number of solutions: 365596
+Time elapsed: 7.01077 seconds
+
+u17555@inhydmecrech01:~$ ./a.out 14 6
+Number of queens: 14
+Number of threads: 6
+Number of solutions: 365596
+Time elapsed: 5.66332 seconds
+
+u17555@inhydmecrech01:~$ ./a.out 14 8
+Number of queens: 14
+Number of threads: 8
+Number of solutions: 365596
+Time elapsed: 4.80997 seconds
+
+u17555@inhydmecrech01:~$ ./a.out 14 10
+Number of queens: 14
+Number of threads: 10
+Number of solutions: 365596
+Time elapsed: 4.73926 seconds
+
+u17555@inhydmecrech01:~$ ./a.out 14 12
+Number of queens: 14
+Number of threads: 12
+Number of solutions: 365596
+Time elapsed: 4.81392 seconds
+
+u17555@inhydmecrech01:~$ ./a.out 14 14
+Number of queens: 14
+Number of threads: 14
+Number of solutions: 365596
+Time elapsed: 2.83394 seconds
+
+u17555@inhydmecrech01:~$ ./a.out 14 16
+Number of queens: 14
+Number of threads: 16
+Number of solutions: 365596
+Time elapsed: 3.60137 seconds
+
+u17555@inhydmecrech01:~$ ./a.out 12 1
+Number of queens: 12
+Number of threads: 1
+Number of solutions: 14200
+Time elapsed: 0.252625 seconds
+
+u17555@inhydmecrech01:~$ ./a.out 12 2
+Number of queens: 12
+Number of threads: 2
+Number of solutions: 14200
+Time elapsed: 0.405566 seconds
+
+u17555@inhydmecrech01:~$ ./a.out 12 4
+Number of queens: 12
+Number of threads: 4
+Number of solutions: 14200
+Time elapsed: 0.253332 seconds
+
+u17555@inhydmecrech01:~$ ./a.out 12 6
+Number of queens: 12
+Number of threads: 6
+Number of solutions: 14200
+Time elapsed: 0.188566 seconds
+
+u17555@inhydmecrech01:~$ ./a.out 12 8
+Number of queens: 12
+Number of threads: 8
+Number of solutions: 14200
+Time elapsed: 0.183894 seconds
+
+u17555@inhydmecrech01:~$ ./a.out 12 10
+Number of queens: 12
+Number of threads: 10
+Number of solutions: 14200
+Time elapsed: 0.153342 seconds
+
+u17555@inhydmecrech01:~$ ./a.out 12 12
+Number of queens: 12
+Number of threads: 12
+Number of solutions: 14200
+Time elapsed: 0.114854 seconds
+
+u17555@inhydmecrech01:~$ ./a.out 12 14
+Number of queens: 12
+Number of threads: 14
+Number of solutions: 14200
+Time elapsed: 0.110539 seconds
+
+u17555@inhydmecrech01:~$ ./a.out 12 16
+Number of queens: 12
+Number of threads: 16
+Number of solutions: 14200
+Time elapsed: 0.11256 seconds
+
+u17555@inhydmecrech01:~$ ./a.out 10 1
+Number of queens: 10
+Number of threads: 1
+Number of solutions: 724
+Time elapsed: 0.016419 seconds
+
+u17555@inhydmecrech01:~$ ./a.out 10 2
+Number of queens: 10
+Number of threads: 2
+Number of solutions: 724
+Time elapsed: 0.0223264 seconds
+
+u17555@inhydmecrech01:~$ ./a.out 10 4
+Number of queens: 10
+Number of threads: 4
+Number of solutions: 724
+Time elapsed: 0.01835 seconds
+
+u17555@inhydmecrech01:~$ ./a.out 10 6
+Number of queens: 10
+Number of threads: 6
+Number of solutions: 724
+Time elapsed: 0.0154637 seconds
+
+u17555@inhydmecrech01:~$ ./a.out 10 8
+Number of queens: 10
+Number of threads: 8
+Number of solutions: 724
+Time elapsed: 0.014417 seconds
+
+u17555@inhydmecrech01:~$ ./a.out 10 10
+Number of queens: 10
+Number of threads: 10
+Number of solutions: 724
+Time elapsed: 0.0128159 seconds
+
+u17555@inhydmecrech01:~$ ./a.out 10 12
+Number of queens: 10
+Number of threads: 12
+Number of solutions: 724
+Time elapsed: 0.0127926 seconds
+
+u17555@inhydmecrech01:~$ ./a.out 10 14
+Number of queens: 10
+Number of threads: 14
+Number of solutions: 724
+Time elapsed: 0.0106958 seconds
+
+u17555@inhydmecrech01:~$ ./a.out 10 16
+Number of queens: 10
+Number of threads: 16
+Number of solutions: 724
+Time elapsed: 0.0127954 seconds
+

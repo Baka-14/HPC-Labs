@@ -16,25 +16,25 @@
 //0 is dead 
 //1 is alive
 
-void seed(int n,int **arr)
-{
-    #pragma omp parallel for
-    for(int i=0;i<n;i++)
-    { 
-        for(int j=0;j<n;j++)
-        { 
-            arr[i][j] = rand()%2;
-        }
-    }
+// void seed(int r,int c,int **arr)
+// {
+//     #pragma omp parallel for
+//     for(int i=0;i<r;i++)
+//     { 
+//         for(int j=0;j<c;j++)
+//         { 
+//             arr[i][j] = rand()%2;
+//         }
+//     }
 
-} 
+// } 
 
-void update(int n, int **arr,int **new)
+void update(int r,int col, int **arr,int **new)
 {
     #pragma omp parallel for collapse(2)
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i < r; i++)
     {
-        for (int j = 0; j < n; j++)
+        for (int j = 0; j < col; j++)
         {   int c=0;
             //up and down 
             if(i>0)
@@ -43,7 +43,7 @@ void update(int n, int **arr,int **new)
                  {c=c+1;}
             }
            
-           if(i<n-1)
+           if(i<r-1)
            {
                 if(arr[i+1][j]==1)
                 {c=c+1;}
@@ -56,7 +56,7 @@ void update(int n, int **arr,int **new)
                 {c=c+1;}
             } 
 
-            if(j<n-1)
+            if(j<col-1)
             {
                 if(arr[i][j+1]==1)
                 {c=c+1;} 
@@ -69,20 +69,20 @@ void update(int n, int **arr,int **new)
                 {c=c+1;}
             }
 
-            if(i<n-1 && j<n-1)
+            if(i<r-1 && j<col-1)
             {
                 if(arr[i+1][j+1]==1)//left-bottom
                 {c=c+1;} 
             }
 
             //right diagonal
-            if(i>0 && j<n-1)
+            if(i>0 && j<col-1)
             {
                 if(arr[i-1][j+1]==1)//right-bottom
                 {c=c+1;}
             }
 
-            if(i<n-1 && j>0)
+            if(i<r-1 && j>0)
             {
                 if(arr[i+1][j-1]==1)//right top
                 {c=c+1;} 
@@ -114,11 +114,11 @@ void update(int n, int **arr,int **new)
     }
 }
 
-void print_array(int n, int **arr)
+void print_array(int r,int c, int **arr)
 {
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i < r; i++)
     {
-        for (int j = 0; j < n; j++)
+        for (int j = 0; j < c; j++)
         {
             printf("%d ", arr[i][j]);
         }
@@ -126,12 +126,12 @@ void print_array(int n, int **arr)
     }
 } 
 
-void copy_arr(int n,int **arr1,int **arr2)
+void copy_arr(int r,int c,int **arr1,int **arr2)
 {
     #pragma omp parallel for
-    for(int i=0;i<n;i++)
+    for(int i=0;i<r;i++)
     { 
-        for(int j=0;j<n;j++)
+        for(int j=0;j<c;j++)
         {
             arr2[i][j]=arr1[i][j];
         }
@@ -141,42 +141,48 @@ void copy_arr(int n,int **arr1,int **arr2)
 
 int main(int argc,char *argv[])
 {
-    int n = atoi(argv[1]); // size of grid (nxn)
     int th = atoi(argv[2]); // number of threads 
+    int r,c;
     int **board;
-    board = (int **)malloc(n * sizeof(int *));
-    // making it two dimensional
-    for (int row = 0; row < n; row++)
-    {
-        board[row] = (int *)malloc(n * sizeof(int));
-    } 
+    FILE *fp = fopen(argv[1], "r");
+    if (fp == NULL) {
+        printf("Error: could not open input file\n");
+        return 1;
+    }
+    fscanf(fp, "%d %d", &r, &c);
+    board = malloc(r * sizeof(int *));
+    for (int i = 0; i < r; i++) {
+        board[i] = malloc(c * sizeof(int));
+        for (int j = 0; j < c; j++) {
+            fscanf(fp, "%d", &board[i][j]);
+        }
+    }
+    fclose(fp);
 
     int **dup;
-    dup = (int **)malloc(n * sizeof(int *));
+    dup = (int **)malloc(r * sizeof(int *));
     // making it two dimensional
-    for (int row = 0; row < n; row++)
+    for (int row = 0; row < r; row++)
     {
-        dup[row] = (int *)malloc(n * sizeof(int));
+        dup[row] = (int *)malloc(c * sizeof(int));
     }  
-
+     
+   
     omp_set_num_threads(th);
-    int gen = 10;
+    int gen = 1;
     struct timeval tv1, tv2;
     struct timezone tz;
     double elapsed; 
     double sum=0.0;
     gettimeofday(&tv1, &tz);
-    seed(n, board);
-    copy_arr(n,board,dup);
-    //print_array(n,board);
-    
+    copy_arr(r,c,board,dup);
     for(int i=0;i<gen;i++)
     {
-        update(n,board,dup);
-        // printf("\n");
-        // printf("----------\n");
-        // print_array(n,dup);
-        copy_arr(n,board,dup);
+        update(r,c,board,dup);
+        printf("\n");
+        printf("----------\n");
+        print_array(r,c,dup);
+        copy_arr(r,c,board,dup);
     }
     gettimeofday(&tv2, &tz);
     elapsed = (double) (tv2.tv_sec-tv1.tv_sec) + (double) (tv2.tv_usec-tv1.tv_usec) * 1.e-6;
