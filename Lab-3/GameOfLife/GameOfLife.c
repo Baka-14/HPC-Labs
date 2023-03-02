@@ -169,7 +169,7 @@ int main(int argc,char *argv[])
      
    
     omp_set_num_threads(th);
-    int gen = 1;
+    int gen = 10;
     struct timeval tv1, tv2;
     struct timezone tz;
     double elapsed; 
