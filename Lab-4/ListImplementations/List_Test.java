@@ -10,11 +10,11 @@ public class List_Test{
 	private static int PRE_FILL;
 	//LazySkipList instance;
 	//LockFreeList instance;
-	//LazyList instance;
-	//OptimisticList instance;
+	LazyList instance;
+	// OptimisticList instance;
 	//FineList instance;
 	//CoarseList instance;
-	SeqList instance;
+	// SeqList instance;
 	long []opCount;
 	long totalOps;
 	Thread []th;
@@ -24,11 +24,11 @@ public class List_Test{
 	{
 		//instance=new LazySkipList();
 		//instance=new LockFreeList();
-		//instance=new LazyList();
-		//instance= new OptimisticList();
+		instance=new LazyList();
+		// instance= new OptimisticList();
 		//instance=new FineList();
 		//instance=new CoarseList();
-		instance=new SeqList();
+		// instance=new SeqList();
 		THREADS=num_threads;
 		RANGE=range;
 		TIME=time;
@@ -138,10 +138,10 @@ public class List_Test{
 	}
 	void display()
 	{
-		//instance.display();
+		// instance.display();
 	}
 	public static void main(String[] args){
-		Runtime runtime=Runtime.getRuntime();
+		// Runtime runtime=Runtime.getRuntime();
 		//runtime.gc();
 		int num_threads=Integer.parseInt(args[0]);
 		int range=Integer.parseInt(args[1]);
@@ -156,8 +156,8 @@ public class List_Test{
 		double throughput=(total_Operations/(1000000.0*time))*1000;// Millions of Operations per second
 		System.out.print(" c_name:"+ob.instance.getClass().getName());
 		System.out.print(":num_threads:"+num_threads+" :range:"+range+" :totalOps:"+total_Operations+" :throughput:"+throughput+"\n");	
-		//System.out.println("Time: "+(end-start));
-		//ob.display();
+		// System.out.println("Time: "+(end-start));
+		// ob.display();
 		//System.out.println("");	
 	}
 }	
