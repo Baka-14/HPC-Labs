@@ -10,7 +10,7 @@ public class List_Test{
 	private static int PRE_FILL;
 	//LazySkipList instance;
 	//LockFreeList instance;
-	LazyList instance;
+	//LazyList instance;
 	// OptimisticList instance;
 	//FineList instance;
 	//CoarseList instance;
@@ -24,7 +24,7 @@ public class List_Test{
 	{
 		//instance=new LazySkipList();
 		//instance=new LockFreeList();
-		instance=new LazyList();
+		//instance=new LazyList();
 		// instance= new OptimisticList();
 		//instance=new FineList();
 		//instance=new CoarseList();
@@ -40,40 +40,41 @@ public class List_Test{
 		search_Limit=s_Limit;
 		ins_Limit=i_Limit;
 	}
-	public void prefill() throws Exception{
-			
-		Random rd1=new Random();
-		for(int i=0;i<1;i++)
-		{
-			th[i]=new Fill();
+	public void prefill() throws Exception {
+	    int num_threads = 16;
+		int items_per_thread = (RANGE / 100 * PRE_FILL) / num_threads;
+	
+		Thread[] fill_threads = new Thread[num_threads];
+		for (int i = 0; i < num_threads; i++) {
+			fill_threads[i] = new Fill(items_per_thread);
+			fill_threads[i].start();
 		}
-		for(int i=0, time=0;i<1;i++)
-		{
-			th[i].start();
-		}
-		for(int i=0;i<1;i++)
-		{
-			th[i].join();
+	
+		for (int i = 0; i < num_threads; i++) {
+			fill_threads[i].join();
 		}
 	}
-	class Fill extends Thread
-	{		 
-		int PER_THREAD_PREFILL=RANGE/100*PRE_FILL;
-		int int_range=RANGE;
-		public void run()
-		{
-			Random rd1=new Random();
-			for(int i=0;i<PER_THREAD_PREFILL;)
-			{
-				//int val=rd1.nextInt(RANGE);
-				int val1=ThreadLocalRandom.current().nextInt(int_range);
-				boolean ins=instance.add(val1);
-				if(ins){ i=i+1;  }
+	
+	class Fill extends Thread {
+		int PER_THREAD_PREFILL;
+		int int_range;
+	
+		public Fill(int items) {
+			PER_THREAD_PREFILL = items;
+			int_range = RANGE;
+		}
+	
+		public void run() {
+			Random rd1 = new Random();
+			for (int i = 0; i < PER_THREAD_PREFILL; ) {
+				int val1 = ThreadLocalRandom.current().nextInt(int_range);
+				boolean ins = instance.add(val1);
+				if (ins) {
+					i++;
+				}
 			}
-		
 		}
 	}
-
 	public void testParallel()throws Exception{
 
 		for(int i=0;i<THREADS;i++)
